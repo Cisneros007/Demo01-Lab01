@@ -27,6 +27,14 @@ namespace demo01B
             triangulo.Base = 10;
             triangulo.Altura = 5;
             triangulo.CalcularAreas();
+            //para estudiante
+            estudiante estudiante = new estudiante
+            {
+                Nombres = " Sebas",
+                Apellidos = " Cisneros",
+                Nota = 20
+
+            };
 
             Console.WriteLine(triangulo.Area);
             Console.WriteLine("hola mundo");

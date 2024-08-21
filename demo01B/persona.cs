@@ -11,10 +11,12 @@ namespace demo01B
         public string Nombres { get; set; }
         public string Apellidos { get; set; }
 
+        public int Nota { get; set; }
+
         public string NombresCompletos { get; set; }
         public int Edad { get; set; }
 
-        public string ConocerEdad()
+        public string ConocerEdad() 
         {
             string mensaje = " es menor de edad";
             if (Edad > 18)
