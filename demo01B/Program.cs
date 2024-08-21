@@ -36,6 +36,18 @@ namespace demo01B
 
             };
 
+            //ejercicio01 
+
+            Cordenada c1 = new Cordenada(0, 0);
+            Cordenada c2 = new Cordenada(4, 0);
+            Cordenada c3 = new Cordenada(4, 3);
+
+            Ejercicio01 ejercicio01= new Ejercicio01(c1, c2, c3);
+
+            Console.WriteLine(ejercicio01.CalcularPerimetro());
+            Console.WriteLine(ejercicio01.CalcularArea());
+
+
             Console.WriteLine(triangulo.Area);
             Console.WriteLine("hola mundo");
             Console.Read();
